@@ -7,5 +7,6 @@ import (
 
 func main() {
 	var user models.UserModel
-	utils.ExtractModels(user)
+	var exceptField = []string{"fullname"}
+	utils.ExtractModelField(user, exceptField)
 }
