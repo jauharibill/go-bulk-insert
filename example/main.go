@@ -2,7 +2,7 @@ package main
 
 import (
 	"fmt"
-	"go-bulk-insert/utils"
+	"gobulkinsert/utils"
 	"other-transaction/api/v1/1.0.0/stock_in/models"
 )
 
