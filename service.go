@@ -2,7 +2,7 @@ package gobulkinsert
 
 import "go-bulk-insert/utils"
 
-func service() (t *utils.BulkInsertStruct) {
+func Service() (t *utils.BulkInsertStruct) {
 	bulk := new(utils.BulkInsertStruct)
 	return bulk
 }
