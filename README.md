@@ -1,17 +1,17 @@
 # GORM BULK INSERT
 
-## INTRODUCTION
+## Introduction
 
 this library is used for creating raw query insert in bulk mode. this library created because gorm library doesnt support bulk request, so this library created for supporting gorm library only.
 
 
-## HOW TO INSTALL
+### How to install
 
 ```
 go get -u github.com/jauharibill/gobulkinsert
 ```
 
-### HOW TO USE
+### How to use
 
 ```
 package main
@@ -60,7 +60,7 @@ func main() {
 
 ```
 
-### OUTPUT
+### Output
 
 ```
 INSERT INTO `users` (`fullname`, `age`, `phone`) VALUES ('bill', '12', '17-09-1945', '082245xxxx'),('bill', '12', '17-09-1945', '082245xxxx'),('bill', '12', '17-09-1945', '082245xxxx'),('bill', '12', '17-09-1945', '082245xxxx'),('bill', '12', '17-09-1945', '082245xxxx'),('bill', '12', '17-09-1945', '082245xxxx');
@@ -68,7 +68,7 @@ INSERT INTO `users` (`fullname`, `age`, `phone`) VALUES ('bill', '12', '17-09-19
 INSERT INTO `users` (`fullname`, `age`, `phone`) VALUES ('bill', '12', '17-09-1945', '082245xxxx'),('bill', '12', '17-09-1945', '082245xxxx'),('bill', '12', '17-09-1945', '082245xxxx');
 ```
 
-### HOW TO USE IN GORM
+### How to implement in GORM Library
 
 put generated query in variable, and then execute it with `Exec()` method in query builder gorm. for example :
 
