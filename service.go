@@ -1,9 +1,10 @@
 package gobulkinsert
 
 import (
-	"fmt"
+	"gobulkinsert/utils"
 )
 
-func Service() {
-	fmt.Println("hello")
+func Service() *utils.BulkInsertStruct {
+	bulk := new(utils.BulkInsertStruct)
+	return bulk
 }
