@@ -1,8 +1,8 @@
-package GormBulkInsert
+package gobulkinsert
 
-import "go-bulk-insert/src"
+import "go-bulk-insert/utils"
 
-func service() (t *src.BulkInsertStruct) {
-	bulk := new(src.BulkInsertStruct)
+func service() (t *utils.BulkInsertStruct) {
+	bulk := new(utils.BulkInsertStruct)
 	return bulk
 }

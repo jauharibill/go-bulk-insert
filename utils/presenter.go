@@ -1,4 +1,4 @@
-package src
+package utils
 
 type BulkInsertStruct struct {
 	Columns *string

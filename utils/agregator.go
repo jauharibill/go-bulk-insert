@@ -1,4 +1,4 @@
-package src
+package utils
 
 func (t *BulkInsertStruct) SetColumn(columns string) (s *BulkInsertStruct) {
 	t.Columns = &columns
