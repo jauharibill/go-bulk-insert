@@ -4,7 +4,7 @@ import (
 	"gobulkinsert/utils"
 )
 
-func Service() *utils.BulkInsertStruct {
+func Service() (t *utils.BulkInsertStruct) {
 	bulk := new(utils.BulkInsertStruct)
 	return bulk
 }
