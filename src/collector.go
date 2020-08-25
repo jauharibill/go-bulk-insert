@@ -1,16 +1,10 @@
-package utils
+package src
 
 import (
 	"fmt"
 	"math"
 	"reflect"
 )
-
-type BulkInsertStruct struct {
-	Columns *string
-	Query   *string
-	Values  *[]string
-}
 
 func (t *BulkInsertStruct) ExtractModelField(model interface{}, exceptionalField []string) (s *BulkInsertStruct) {
 	var reflectValue = reflect.ValueOf(model)

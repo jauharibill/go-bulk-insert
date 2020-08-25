@@ -2,8 +2,8 @@ package main
 
 import (
 	"fmt"
-	"go-bulk-insert/models"
 	"go-bulk-insert/utils"
+	"other-transaction/api/v1/1.0.0/stock_in/models"
 )
 
 func main() {
