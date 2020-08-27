@@ -2,7 +2,7 @@
 
 ## Introduction
 
-this library is used for creating raw query insert in bulk mode. this library created because gorm library doesnt support bulk request, so this library created for supporting gorm library only.
+this library is used for creating raw query insert in bulk mode. this library created because gorm library doesnt support bulk request, so this library created for supporting any golang query builder library especially GORM.
 
 
 ### How to install
