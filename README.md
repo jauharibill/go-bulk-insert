@@ -1,4 +1,4 @@
-# GORM BULK INSERT
+# GO BULK INSERT
 
 ## Introduction
 
